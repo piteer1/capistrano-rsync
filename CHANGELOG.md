@@ -1,3 +1,6 @@
+## 1.0.3 (Jan 5, 2015)
+- Updates for Capistrano v3.x
+
 ## 1.0.2 (Oct 13, 2013)
 - Updates README and code comments.
 
