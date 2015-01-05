@@ -26,9 +26,11 @@ Using [Mina](http://nadarei.co/mina/) instead of Capistrano? I've built
 
 Using
 -----
-Install with:
+Install with bundler by defining requiremnt in Gemfile:
 ```
-gem install capistrano-rsync
+#Gemfile
+
+gem 'capistrano-rsync', :github => 'piteer1/capistrano-rsync'
 ```
 
 Require it at the top of your `Capfile` (or `config/deploy.rb`):
@@ -130,3 +132,5 @@ About
 If you find Capistrano::Rsync needs improving, please don't hesitate to type to
 me now at [andri@dot.ee](mailto:andri@dot.ee) or [create an issue
 online](https://github.com/moll/capistrano-rsync/issues).
+
+
